@@ -1,0 +1,24 @@
+{
+  "name": "TerraformProtocol",
+  "version": "0.2.0",
+  "description": "Community-owned token, intended for Decentralized Initial Offerings (DIOs)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test_everything"
+  },
+  "author": "Terraform Foundation",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@openzeppelin/contracts": ">=4.1.0",
+    "solc": ">=0.8.4",
+    "web3": "^1.3.5"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.37",
+    "arb-ethers-web3-bridge": "^0.7.3",
+    "truffle-plugin-verify": "^0.5.8"
+  }
+}

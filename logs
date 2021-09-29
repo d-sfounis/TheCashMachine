@@ -1,0 +1,19 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+> Something went wrong while attempting to connect to the network. Check your network configuration.
+
+Could not connect to your Ethereum client with the following parameters:
+    - host       > 127.0.0.1
+    - port       > 7545
+    - network_id > 5777
+Please check that your Ethereum client:
+    - is running
+    - is accepting RPC connections (i.e., "--rpc" option is used in geth)
+    - is accessible over the network
+    - is properly configured in your Truffle configuration file (truffle-config.js)
+
+Truffle v5.3.6 (core: 5.3.6)
+Node v14.17.0
